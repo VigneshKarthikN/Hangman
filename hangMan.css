@@ -1,0 +1,95 @@
+
+#can{
+    position: absolute;
+    left: 75%;
+    top: 35%; 
+    color:grey;
+    background-color: grey;
+    /* background-image: url("skull.png"); */
+}
+#yy{
+    background-color: rgba(255, 255, 255, 0.329);
+    color:red;
+    position: absolute;
+    left: 450px;
+    top: 540px;    
+}
+#a1, #a2, #a3, #a4, #a5{
+    background-color: rgb(233, 16, 16);
+    
+}
+
+#ques{
+    background: darkblue;
+    background-color: rgba(128, 128, 128, 0);
+    margin-left : 0%; 
+    width: 10mm;
+    height: 10mm;
+    color: red;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 6mm;
+    text-transform: capitalize;
+
+
+}
+body{
+     
+    background-position-x: 140%;
+    background-position-y: -18%;
+    background-image: url("maxresdefault.jpg");
+
+}
+
+
+
+#ds{
+        position: absolute;
+        left:420px;
+        top:40px; 
+        font-size:30px;
+        background-color: red;  
+}
+#za{
+    position: absolute;
+    left:510px;
+    top:230px;
+}
+#xx{
+    position: absolute;
+    left:360px;
+    top:340px;
+}
+
+#rl{
+    position: absolute;
+    left: 30%;
+    top:90%;
+    width:25mm;
+    height:10mm;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 110%;
+    font-style: inherit;
+    background-color:red;
+
+}
+
+#st{
+    position: absolute;
+    left: 50%;
+    top:90%;
+    width:25mm;
+    height:10mm;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 110%;
+    font-style: inherit;
+    background-color:red;
+
+}
+
+#txt{
+    position: absolute;
+    left: 22%;
+    top:01%;
+    font-size: 10mm;
+    color:red;
+}

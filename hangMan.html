@@ -1,0 +1,69 @@
+<!doctype html>
+<html>
+    <head>
+        <title>HangMan</title>
+        <script src="set.js"></script>
+        <script src="hangman2.js"></script>
+        <link href="hangMan.css" rel = "stylesheet" type="text/css"> 
+    </head>
+    <body>
+        <img id="face" width="0" height="0" src="face.png" >
+        <img id="left1" width="0" height="0" src="left1.png" >
+        <img id="left2" width="0" height="0" src="left2.png" >
+        <img id="right1" width="0" height="0" src="right1.png" >
+        <img id="right2" width="0" height="0" src="right2.png" >
+        <img id="teeth" width="0" height="0" src="teeth.png" >
+        <div id="zzz">
+        <p id="a">
+            
+            <label for="check(this);" >
+                 <p id="txt">CLUE:</p>   
+                <div id="ds" ><canvas id="que" width="500" height="50"></canvas></div>
+                <br><br><br><br>
+                <div id="za">
+                <canvas id="a1" width="30" height="30" style="border:1px solid "></canvas>&nbsp;
+                <canvas id="a2" width="30" height="30" style="border:1px solid "></canvas>&nbsp;
+                <canvas id="a3" width="30" height="30" style="border:1px solid "></canvas>&nbsp;
+                <canvas id='a4' width="30" height="30" style="border:1px solid "></canvas>&nbsp;
+                <canvas id="a5" width="30" height="30" style="border:1px solid "></canvas></div><br><br>
+                <canvas id="can" width="300" height="300" style="border:4px solid "></canvas><br><br>
+                <div id="xx">
+                <button id="ques" value='a' onclick="check(this);">a</button>  
+                <button id="ques" value='b' onclick="check(this);">b</button>  
+                <button id="ques" value='c' onclick="check(this);">c</button>  
+                <button id="ques" value='d' onclick="check(this);">d</button>  
+                <button id="ques" value='e' onclick="check(this);">e</button> 
+                <button id="ques" value='f' onclick="check(this);">f</button>  
+                <button id="ques" value='g' onclick="check(this);">g</button>  
+                <button id="ques" value='h' onclick="check(this);">h</button>
+                <button id="ques" value='i' onclick="check(this);">i</button>
+                <button id="ques" value='j' onclick="check(this);">j</button>
+                <button id="ques" value='k' onclick="check(this);">k</button>
+                <button id="ques" value='l' onclick="check(this);">l</button> 
+                <button id="ques" value='m' onclick="check(this);">m</button> <br><br>
+                <button id="ques" value='n' onclick="check(this);">n</button>
+                <button id="ques" value='o' onclick="check(this);">o</button>
+                <button id="ques" value='p' onclick="check(this);">p</button> 
+                <button id="ques" value='q' onclick="check(this);">q</button>
+                <button id="ques" value='r' onclick="check(this);">r</button>
+                <button id="ques" value='s' onclick="check(this);">s</button>
+                <button id="ques" value='t' onclick="check(this);">t</button>
+                <button id="ques" value='u' onclick="check(this);">u</button>
+                <button id="ques" value='v' onclick="check(this);">v</button>
+                <button id="ques" value='w' onclick="check(this);">w</button>
+                <button id="ques" value='x' onclick="check(this);">x</button>
+                <button id="ques" value='y' onclick="check(this);">y</button>
+                <button id="ques" value='z' onclick="check(this);">z</button></div>
+                <div id="aaa"><canvas id="yy" height="70" width="300"></canvas>&nbsp;</div>
+                <button id="rl" onclick="reload();" >Reload</button>
+                <button id="st" onclick="stop();" >Stop</button>
+                        </label>
+                <!-- <audio src = "Krishna Kanha Flute Animated.mp3" 
+                        id="audioPlayer"> -->
+                
+            
+        </p>
+    </canvas>
+</div>
+    </body>
+</html>
